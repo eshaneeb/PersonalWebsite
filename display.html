@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" type = "text/css" href="back/css/styles.css"/>
+        <title>My Website</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Eshanee <span> Bhattacharjya </span>
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About Me</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#art" class="nav__link">My Art</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-circle-fill"></i>
+                    </div>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content">
+                        <div class="home__data">
+                            <h3 class="home__subtitle">
+                                Hello, <span>I’m</span>
+                            </h3>
+                            <h1 class="home__title">Eshanee Bhattacharjya</h1>
+                            <h3 class="home__education">BEng Graduate in Energy & Environmental Engineering</h3>
+                            <p class="home__description">
+                                I am a recent graduate in Bachelor of Energy & Environmental Engineering from CUHK, 
+                                and have participated in front-end web development courses by Xcelerate and Internahala. 
+                                I will start my position as a client service associate at AlphaSights in September.
+                                If my background interests you, please feel free to contact me!
+                            </p>
+                            <a href="#contact" class="button">Contact Me!</a>
+                        </div>
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/eshanee-bhattacharjya/" target="_blank" class="home__social-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <style>
+                        .circle-container {
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          height: 100vh; 
+                        }
+                        .circle-image {
+                          width: 80%;
+                          height: 70%;
+                          border-radius: 50%;
+                          overflow: hidden;
+                          filter: drop-shadow(0 12px 12px rgb(58, 6, 181));
+                        }
+                      </style>
+                      
+                      <div class="circle-container">
+                        <div class="circle-image">
+                          <img src="Images/face.jpeg" alt="Image" />
+                        </div>
+                      </div>
+                </div>
+            </section>
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h1 class="section__subtitle">
+                            My <span>Intro</span>
+                        </h1>
+                        <h2 class="section__title">
+                            About Me
+                        </h2>
+                        <p class="about__description">
+                            As a recent graduate, I developed a variety of skills during university,
+                            from event management and organization with TedxCUHK and Morningside College Rangers, 
+                            to technical engineering experiences at the Greater China Design Competition,
+                            as a chemical engineering intern at SSP, and information technology projects such as web
+                            development, ESG data modelling with Briink and stochastic optimization programming in my 
+                            final year project. 
+                            This is a simple website as a personal portfolio for my various experiences.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="project section" id="projects">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h1 class="section__subtitle">
+                            My <span>Projects</span>
+                        </h1>
+                        <div class="project">
+                            <h3>Real-time Electricity Price Algorithm</h3>
+                            <p> Learn more about my senior capstone project, supervised by Dr Yue Chen, 
+                                modeling an optimization algorithm using MATLAB! This project explores 
+                                stochastic optimization using data from the CAISO for locational marginal
+                                price (LMP) estimation of different generators.
+                            </p>
+                            <a href="https://github.com/eshaneeb/FYP_Code.git " target="_blank" class="button">View Project</a>
+                            <a href="Files/Report1.pdf" target="_blank" class="button">Download My Report</a>
+                        </div>
+                        <div class="project">
+                            <h3>Modeling the ESG Frameworks Universe</h3>
+                            <p> In collaboration with University of Exeter, The Chinese University of Hong Kong, 
+                                and Stellenborch University, my group and I collaborated with Briink to suggest 
+                                methods for modeling the ESG framework universe.
+                            </p>
+                            <a href="https://github.com/eshaneeb/FYP_Code.git " target="_blank" class="button">View Project</a>
+                            <a href="Files/Report1.pdf" target="_blank" class="button">Download My Report</a>
+                        </div>
+                        <div class="project">
+                            <h3>Sustainable Material Shoes</h3>
+                            <p> A replaceable shoe design for sustainable material conservation.
+                            </p>
+                            <a href="https://github.com/eshaneeb/FYP_Code.git " target="_blank" class="button">View Project</a>
+                            <a href="Files/Report1.pdf" target="_blank" class="button">Download My Report</a>
+                        </div>
+                        <div class="project">
+                            <h3>Upcoming!</h3>
+                            <p>Currently I'm working on my webdev portfolio with redesigns of some awful websites 
+                                I have found online, please stay tuned! You are welcome to contact me and send 
+                                some bad websites in, I would love to test myself and see if I can transform them.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="art section" id="art">
+                <h1 class="section__title">
+                    My <span>Art Gallery</span>
+                </h1>
+                <p> If you enjoy my art style, I am open for commissions! 😉
+                </p>
+                <div class="art__container container grid">
+                    <article class="art__card"> 
+                        <img src="Images/painting.jpg" alt="art img">
+                        <div class="art__modal">
+                            <span class="art__subtitle">
+                                Watercolor on Paper, A3
+                            </span>
+                            <h2 class="art__title">Colorful Death</h2>
+                        </div>
+                    </article>
+                    <article class="art__card"> 
+                        <img src="Images/painting2.jpeg" alt="art img">
+                        <div class="art__modal">
+                            <span class="art__subtitle">
+                                Acrylic on Canvas, 24x12in
+                            </span>
+                            <h2 class="art__title">Indian Peafowl</h2>
+                        </div>
+                    </article>
+                    <article class="art__card"> 
+                        <img src="Images/painting3.jpeg" alt="art img">
+                        <div class="art__modal">
+                            <span class="art__subtitle">
+                                Acrylic on Canvas, 24x12in
+                            </span>
+                            <h2 class="art__title">Lovebirds</h2>
+                        </div>
+                    </article>
+                    <article class="art__card"> 
+                        <img src="Images/painting4.jpeg" alt="art img">
+                        <div class="art__modal">
+                            <span class="art__subtitle">
+                                Acrylic on Canvas, 24x12in
+                            </span>
+                            <h2 class="art__title">Gopal</h2>
+                        </div>
+                    </article>
+                    <article class="art__card"> 
+                        <img src="Images/drawing1.jpeg" alt="art img">
+                        <div class="art__modal">
+                            <span class="art__subtitle">
+                                Graphite on Paper, A5
+                            </span>
+                            <h2 class="art__title">Gaia</h2>
+                        </div>
+                    </article>
+                    <article class="art__card"> 
+                        <img src="Images/drawing2.jpeg" alt="art img">
+                        <div class="art__modal">
+                            <span class="art__subtitle">
+                                Graphite on Paper, A3
+                            </span>
+                            <h2 class="art__title">Rose</h2>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="contact section" id="contact">
+                <h3 class="section__subtitle">
+                    Wanna <span> Reach Out?</span>
+                </h3>
+                <h1 class="section__title">
+                    Contact Me
+                </h1>
+                <div class="contact__container container grid">
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <input type="text" name="user_name" required placeholder="What's Your Name?" class="contact__input">
+                            <input type="email" name="user_email" required placeholder="What's Your Email?" class="contact__input">
+                        </div>
+                        <textarea name="user_message" required placeholder="Your Message" class="contact__input"></textarea>
+                        <p class="contact__message" id="contact-message"></p>
+                        <button type="submit" class="button contact__button">
+                            Send Message
+                        </button>
+                    
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">
+                        Eshanee Bhattacharjya
+                    </h1>
+                    <div class="footer__social">
+                        <a href="https://www.linkedin.com/in/eshanee-bhattacharjya/" target="_blank" class="footer__social-link"><i class="ri-linkedin-box-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+            <span class="footer__copy">
+                Copyright &copy; 2023
+            </span>
+        </footer>
+        <button onclick="topFunction()" class="scrollup" id="scrollToTopBtn" onclick="scrollToTop()"><i class="ri-arrow-up-line"></i></i></button>
+        <script src=""></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="back/js/main.js"></script>
+    </body>
+</html>
